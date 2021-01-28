@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthDemo.Web", "JwtAuthDemo\JwtAuthDemo.Web.csproj", "{C8775B7A-416A-4EE5-88B7-8C7E4554BD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthDemo.Contracts", "JwtAuthDemo.Contracts\JwtAuthDemo.Contracts.csproj", "{19754229-6DCD-433C-A86C-BE13B49A0BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthDemo.Security", "JwtAuthDemo.Security\JwtAuthDemo.Security.csproj", "{1B79EBB5-8C14-4A77-ABE6-21FE096CC70C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthDemo.Services", "JwtAuthDemo.Services\JwtAuthDemo.Services.csproj", "{948CB74E-CCB9-43DB-9A1E-9695B0185D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthDemo.DA", "JwtAuthDemo.DA\JwtAuthDemo.DA.csproj", "{9A7F9683-6874-492D-BF55-86A99ED533BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthDemo.Entities", "JwtAuthDemo.Entities\JwtAuthDemo.Entities.csproj", "{5B66B6CD-2F23-4847-8D8C-9B4A7308D58B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8775B7A-416A-4EE5-88B7-8C7E4554BD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8775B7A-416A-4EE5-88B7-8C7E4554BD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8775B7A-416A-4EE5-88B7-8C7E4554BD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8775B7A-416A-4EE5-88B7-8C7E4554BD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19754229-6DCD-433C-A86C-BE13B49A0BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19754229-6DCD-433C-A86C-BE13B49A0BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19754229-6DCD-433C-A86C-BE13B49A0BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19754229-6DCD-433C-A86C-BE13B49A0BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B79EBB5-8C14-4A77-ABE6-21FE096CC70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B79EBB5-8C14-4A77-ABE6-21FE096CC70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B79EBB5-8C14-4A77-ABE6-21FE096CC70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B79EBB5-8C14-4A77-ABE6-21FE096CC70C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948CB74E-CCB9-43DB-9A1E-9695B0185D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948CB74E-CCB9-43DB-9A1E-9695B0185D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948CB74E-CCB9-43DB-9A1E-9695B0185D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948CB74E-CCB9-43DB-9A1E-9695B0185D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A7F9683-6874-492D-BF55-86A99ED533BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7F9683-6874-492D-BF55-86A99ED533BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7F9683-6874-492D-BF55-86A99ED533BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7F9683-6874-492D-BF55-86A99ED533BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B66B6CD-2F23-4847-8D8C-9B4A7308D58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B66B6CD-2F23-4847-8D8C-9B4A7308D58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B66B6CD-2F23-4847-8D8C-9B4A7308D58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B66B6CD-2F23-4847-8D8C-9B4A7308D58B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4409789E-FF92-4B16-BBE6-4B3E09533B7C}
+	EndGlobalSection
+EndGlobal

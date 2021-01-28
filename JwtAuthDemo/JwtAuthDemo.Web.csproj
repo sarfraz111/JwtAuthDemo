@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>JwtAuthDemo.Web</AssemblyName>
+    <RootNamespace>JwtAuthDemo.Web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.11" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JwtAuthDemo.Contracts\JwtAuthDemo.Contracts.csproj" />
+    <ProjectReference Include="..\JwtAuthDemo.Entities\JwtAuthDemo.Entities.csproj" />
+  </ItemGroup>
+
+
+</Project>
